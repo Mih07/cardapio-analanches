@@ -123,9 +123,17 @@ function App() {
       alert("Preencha seu nome e endereço!");
       return;
     }
+
     const itensMsg = carrinho.map(i => `- ${i.nome}: R$ ${i.precoFixo.toFixed(2)}`).join('\n');
-    const msg = encodeURIComponent(`*PEDIDO GARAGEM GRILL*\n\n*Cliente:* ${cliente.nome}\n*Endereço:* ${cliente.endereco}\n*Pagamento:* ${cliente.pagamento}\n\n*Itens:*\n${itensMsg}\n\n*Total: R$ ${total.toFixed(2)}*`);
+    
+    // Note que alterei para o nome do restaurante da cliente aqui na mensagem:
+    const msg = encodeURIComponent(`*PEDIDO ANA LANCHES*\n\n*Cliente:* ${cliente.nome}\n*Endereço:* ${cliente.endereco}\n*Pagamento:* ${cliente.pagamento}\n\n*Itens:*\n${itensMsg}\n\n*Total: R$ ${total.toFixed(2)}*`);
+    
     window.open(`https://wa.me/${restaurante.fone}?text=${msg}`, '_blank');
+
+    // --- ADICIONE ESTAS DUAS LINHAS ABAIXO ---
+    setCarrinho([]); // Esvazia o carrinho de compras
+    setCarrinhoAberto(false); // Fecha a janelinha do carrinho para voltar ao cardápio
   };
 
   return (
