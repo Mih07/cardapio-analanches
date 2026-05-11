@@ -15,7 +15,7 @@ function App() {
   // --- DADOS DO RESTAURANTE ---
   const restaurante = { 
     nome: "Ana Lanches E \n Refeições", 
-    fone: "551199288-5791" 
+    fone: "5511943149603" 
   };
   
   // --- SEUS PRODUTOS ---
