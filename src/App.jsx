@@ -147,7 +147,7 @@ function App() {
             <h1>{restaurante.nome}</h1>
             <div className="status-container">
               <span className="badge-status">● Aberto</span>
-              <span className="tempo-entrega">🕒 Seg à Sex 5:30 - 21:00<br>Sábado 5:30 - 16:00</br></span>
+              <span className="tempo-entrega">🕒 <br />Seg à Sex 5:30 - 21:00  <br />Sábado 5:30 - 16:00</span>
             </div>
           </div>
           <div className="carrinho-header" onClick={() => setCarrinhoAberto(!carrinhoAberto)}>
