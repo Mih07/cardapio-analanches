@@ -102,10 +102,10 @@ function App() {
 
 
     // SUCO DELL VALE 260ME
-    { id: 59, nome: "Suco de Goiaba", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada." },
-    { id: 60, nome: "Suco de Maracujá ", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada." },
-    { id: 59, nome: "Suco de Pêssego", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada." },
-    { id: 60, nome: "Suco de Uva ", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada." },
+    { id: 59, nome: "Suco de Goiaba", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada.", imagem: "/goiaba.png" },
+    { id: 60, nome: "Suco de Maracujá ", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada.", imagem: "/maracuja.png" },
+    { id: 59, nome: "Suco de Pêssego", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada.", imagem: "/pessego.png" },
+    { id: 60, nome: "Suco de Uva ", precoFixo: 9.00, categoria: "Suco", destaque: false, desc: "Lata 260 ml gelada.", imagem: "/uva.png"   },
 
   ];
 
