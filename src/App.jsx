@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 
 function App() {
@@ -129,7 +130,7 @@ function App() {
 
   return (
     <div className="container">
-
+      <Analytics />
       {/* HEADER ESTILO MODERNO */}
       <header className="header-dinamico">
         <div className="header-content">
